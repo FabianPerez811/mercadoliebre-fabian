@@ -1,0 +1,539 @@
+@media (max-width: 360px){
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+header{
+    background-color: #EAC926;
+    margin: auto;
+   
+}
+
+section.banner img{
+    width: 100%;
+}
+
+.right-navbar{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon{
+    background-color: white;
+    border: solid 1px lightgray;
+    margin-left: 5px;
+    
+}
+
+
+
+.menu{
+    display: none;
+}
+
+.burguer-menu{
+    display: block;
+    margin: auto;
+    text-align: center;
+    width:22px;
+    background-color: blue;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding: 10px;
+    color: white;
+    border: solid 1px blue;
+}
+
+body{
+    
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+}
+
+.compra-en-cuotas{
+    margin-left: 5px;
+    text-align: center;
+    
+}
+
+.ingresa{
+    text-align: justify;
+}
+
+main{
+        width: 100%;
+        margin: 0 auto;
+    }
+       
+
+
+main img{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 90%;
+    border-bottom: solid 1px lightgray;
+    margin: auto;
+
+}
+
+.main-product{
+    
+    background-color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    display: block;
+        
+}    
+
+.price-discount{
+    display: flex;
+    flex-direction: row;
+    justify-items:space-between;
+
+}
+
+.box-price-discount{
+    display: flex;
+    width: 90%;
+    flex-wrap: wrap;
+    border: solid 10px white; 
+    
+}
+
+        
+.img_truck{
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    color:#39b54a;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    
+    }
+
+
+.price{
+    flex-grow: 0.7;
+}
+
+.discount{
+    margin-left: 10px;
+    flex-grow: 0.3;
+    color:#39b54a;
+    
+}
+
+h3{
+    display: none;
+}
+
+.buscar-icono{
+    display: inline-block;
+    margin-top: 4px;
+    margin-bottom: 4px;
+}
+
+.tarjeta-credito{
+    display: block;
+    padding: 2px;
+    color: blue;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.regalo-icono{
+    display: block;
+    padding: 2px;
+    color: blue;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.seguridad{
+    display: block;
+    color: blue;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+
+
+
+.ultimavisita{
+    font-size: 24px;
+}
+
+.ofertas{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+    
+}
+
+.descuento{
+    font-size: 16px;
+    color:#39b54a;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.cuerpo{
+    font-size: 12px;
+}
+
+.footer{
+    text-align: center;
+}
+
+
+
+
+
+}
+
+@media (min-width: 361px){
+    a{
+        text-decoration: none;
+        color: black;
+    }
+        
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    body{
+    
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    }
+
+    header {background-color: #EAC926;
+    margin: auto;
+    }
+
+    .right-navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icon{
+        background-color: white;
+        border: solid 1px lightgray;
+        margin-left: 5px;
+        
+    }
+
+
+
+    .compra-en-cuotas{
+        margin-left: 5px;
+        text-align: center;
+        
+    }
+
+    .menu{
+        margin-left: 5px;
+        color: black;
+    }
+
+    .burguer-menu{
+        display: none;
+    }
+
+
+    section.banner img{
+        width: 100%;
+    }
+
+    main img{
+        display: inline-block;
+        width: 100%;
+        border-bottom: solid 1px lightgray;
+        margin: auto;
+    
+    }
+    .main-product{
+        display: inline-block;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 45%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-right: 5px;
+        margin-left: 5px;
+    }
+
+
+
+
+    .price-discount{
+        flex-direction: row;
+        
+    }
+        
+    .box-price-discount{
+        text-align: left;
+        border: solid 10px white; 
+            
+    }
+                    
+    .img_truck{
+    display: block;
+    flex-grow: inherit;
+    font-size: 16px;
+    padding: 5px;
+    color:#39b54a;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    
+    right: 10px;
+    
+    }
+        
+    .discount{
+        color:#39b54a;
+    }
+
+
+    .tarjeta-credito{
+        display: block;
+        padding: 2px;
+        color: blue;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    .regalo-icono{
+        display: block;
+        padding: 2px;
+        color: blue;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    .seguridad{
+        display: block;
+        color: blue;
+        padding: 2px;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    
+    
+    
+    .ultimavisita{
+        font-size: 24px;
+    }
+    
+    .ofertas{
+        font-size: 24px;
+    }
+    
+    .precio{
+        font-size: 18px;
+        
+    }
+    
+    .descuento{
+        font-size: 16px;
+        color:#39b54a;
+    }
+    
+    .descripcion{
+        font-size: 16px;
+    }
+    
+    .cuerpo{
+        font-size: 12px;
+    }
+    
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
+
+@media (min-width: 769px){
+    body{
+    
+    background-color: #ebebeb;
+    font-family: 'Roboto', sans-serif;
+    }
+    a{
+        text-decoration: none;
+        color: black;
+    }
+        
+    main{
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    
+
+    header {background-color: #EAC926;
+    margin: auto;
+    }
+
+    .right-navbar{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icon{
+        background-color: white;
+        border: solid 1px lightgray;
+        margin-left: 5px;
+        
+    }
+
+    .compra-en-cuotas{
+        margin-left: 5px;
+        text-align: center;
+        
+    }
+
+   
+
+    
+
+    .burguer-menu{
+        display: none;
+    }
+
+
+    section.banner img{
+        width: 100%;
+    }
+
+    main img{
+        display: inline-block;
+        width: 100%;
+        border-bottom: solid 1px lightgray;
+        margin: auto;
+        text-align: justify;
+    }
+    .main-product{
+        display: inline-block;
+        flex-wrap: wrap;
+        background-color: white;
+        width: 22%;
+        text-align: center;
+        margin-bottom: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+    .price-discount{
+        flex-direction: row;
+        
+    }
+        
+    .box-price-discount{
+        text-align: left;
+        border: solid 10px white; 
+            
+    }
+                    
+    .img_truck{
+        color:#39b54a;
+    }
+        
+    .discount{
+        color:#39b54a;
+    }
+
+
+    .tarjeta-credito{
+        display: block;
+        padding: 2px;
+        color: blue;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    .regalo-icono{
+        display: block;
+        padding: 2px;
+        color: blue;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    .seguridad{
+        display: block;
+        color: blue;
+        padding: 2px;
+        margin: auto;
+        text-align: center;
+        max-width: fit-content;
+    }
+    
+    
+    
+    
+    .ultimavisita{
+        font-size: 24px;
+    }
+    
+    .ofertas{
+        font-size: 24px;
+    }
+    
+    .precio{
+        font-size: 18px;
+        
+    }
+    
+    .descuento{
+        font-size: 16px;
+        color:#39b54a;
+    }
+    
+    .descripcion{
+        font-size: 16px;
+    }
+    
+    .cuerpo{
+        font-size: 12px;
+    }
+    
+    .footer{
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+

@@ -1,0 +1,63 @@
+
+
+
+
+.tarjeta-credito{
+    display: block;
+    padding: 2px;
+    color: blue;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.regalo-icono{
+    display: block;
+    padding: 2px;
+    color: blue;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+.seguridad{
+    display: block;
+    color: blue;
+    padding: 2px;
+    margin: auto;
+    text-align: center;
+    max-width: fit-content;
+}
+
+
+
+
+.ultimavisita{
+    font-size: 24px;
+}
+
+.ofertas{
+    font-size: 24px;
+}
+
+.precio{
+    font-size: 18px;
+    
+}
+
+.descuento{
+    font-size: 16px;
+    color:#39b54a;
+}
+
+.descripcion{
+    font-size: 16px;
+}
+
+.cuerpo{
+    font-size: 12px;
+}
+
+.footer{
+    text-align: center;
+}
