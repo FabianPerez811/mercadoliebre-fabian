@@ -23,6 +23,7 @@ app.post('/registro', (req,res)=>{
 
 
 app.use(express.static(publicPath))
-app.listen(5000, ()=>{
+app.listen(process.env.PORT || 5000, ()=>{
     console.log('http://localhost:5000')
 });
+// PORT=3030 node app.js

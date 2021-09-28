@@ -1,14 +1,25 @@
 {
   "name": "proyecto-html",
   "version": "1.0.0",
-  "description": "",
+  "description": "mercadoliebre-fabianperez",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^2.0.12"
-  }
+    "express": "^4.17.1",
+    "nodemon": "^2.0.13"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabianPerez811/mercadoliebre-fabian.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/FabianPerez811/mercadoliebre-fabian/issues"
+  },
+  "homepage": "https://github.com/FabianPerez811/mercadoliebre-fabian#readme"
 }
