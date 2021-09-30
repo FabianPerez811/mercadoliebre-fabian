@@ -11,50 +11,61 @@
     <title>Mercado Liebre</title>
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
-    
+    <link rel="stylesheet" href="/css/registro.css"/>
 </head>
 <body>
 
 <!-- HEADER -->
-    <header>   
+<header>   
 
-        <link href="css/registro.css" rel="stylesheet">
-        <img src="/img/logo-mercado-liebre.svg" width="200" height="100px">
-
-        <div class="barra-icono">
-    
-     <div class="barra">Buscar productos, marcas</div>
-     <div class="buscar-icono">
-        <i class="fas fa-search"></i> 
-     </div>
-        </div>
-     <br/>
-        <div class="cuerpo">
-        <div>Compra en cuotas y sin tarjeta de credito    
-        </div>
         
-     <br/>
-    
-      <div href="">Ofertas</div>
-      <div href="">Tiendas oficiales</div>
-      <div href="">Vender</div>
-      <div href="">Ayuda</div>
-    
-      <br/>
-    
-      <div href="">Crea tu cuenta</div>
+    <img src="/img/logo-mercado-liebre.svg" width="200" height="100px">
 
-      <span href="">Ingresa</span> 
-      <span class="ingresa">
-        <i class="fas fa-sign-out-alt"></i>
-      </span>
+    <article class="right-navbar">
 
-      <div href="">Mis compras</div>
-        
-      <div class="burguer-menu">
-        <i class="fas fa-bars"></i>
-
+        <div class="search-bar">
+            <input type = "search" name="busqueda" placeholder="Buscá productos" class = "search-bar">
+        </div>
+        <div class="icon">
+            <i class="buscar-icono fas fa-search"></i>
+        </div>
+    </article>
+ <br/>
+    <div class="cuerpo">
+    <p><i class="fas fa-hand-holding-usd"></i>Compra en cuotas y sin tarjeta de credito</p>
     </div>
+    
+ <br/>
+ <article class="menu">
+    <div class="menu-row">
+        <nav>
+            <p href="#">Ofertas</p>
+            <p href="#">Tiendas oficiales</p>
+            <p href="#">Vender</p>
+            <p href="#">Ayuda</p>
+    
+      
+    
+            <p><a href="/registro">Crea tu cuenta</a><i class="far fa-address-card"></i></p>
+
+            <p><a href="/login"> Ingresa</a><i class="fas fa-sign-out-alt"></i></p> 
+      
+            
+
+            <div><a href="">Mis compras<i class="fas fa-shopping-basket"></i></div>
+            </nav>
+      </div>
+    </article>
+    <span class="ingresa">
+        <i class="fas fa-sign-out-alt"></i>
+    </span>
+
+  <div href="">Mis compras</div>
+</nav>
+    <section class="banner">
+        <img src="/img/banner-mercadoliebre.jpeg" alt="Banner de ofertas">
+    </section>
+
 </header>
 
 <!-- MAIN -->
@@ -84,12 +95,12 @@
     
 
     <div>
-    <label for="clave">Contraseña:</label>
+    <label for="clave">Contraseña</label>
     <input type="password" name="clave" id="clave" required>
     </div>
 
     <div>
-        <label for="clave">Confirmar contraseña:</label>
+        <label for="clave">Confirmar contraseña</label>
         <input type="password" name="clave" id="clave">
         </div>
 
